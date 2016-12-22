@@ -1,0 +1,53 @@
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="300dp"
+    android:viewportWidth="800"
+    android:viewportHeight="600">
+
+    <path
+        android:name="horizontal_line_path"
+        android:pathData="M100,100H620"
+        android:strokeColor="@color/dot"
+        android:strokeLineCap="square"
+        android:strokeWidth="1" />
+
+    <group
+        android:name="dot_group">
+
+        <path
+            android:name="dot_1"
+            android:pathData="M100,100a9.5 9.5 0 0 1 -9.5 9.5 9.5 9.5 0 0 1 -9.5 -9.5 9.5 9.5 0 0 1 9.5 -9.5 9.5 9.5 0 0 1 9.5 9.5z"
+            android:fillColor="@color/dot" />
+
+        <path
+            android:name="dot_1"
+            android:pathData="M230,100a9.5 9.5 0 0 1 -9.5 9.5 9.5 9.5 0 0 1 -9.5 -9.5 9.5 9.5 0 0 1 9.5 -9.5 9.5 9.5 0 0 1 9.5 9.5z"
+            android:fillColor="@color/dot" />
+
+        <path
+            android:name="dot_1"
+            android:pathData="M360,100a9.5 9.5 0 0 1 -9.5 9.5 9.5 9.5 0 0 1 -9.5 -9.5 9.5 9.5 0 0 1 9.5 -9.5 9.5 9.5 0 0 1 9.5 9.5z"
+            android:fillColor="@color/pin" />
+
+        <path
+            android:name="dot_1"
+            android:pathData="M490,100a9.5 9.5 0 0 1 -9.5 9.5 9.5 9.5 0 0 1 -9.5 -9.5 9.5 9.5 0 0 1 9.5 -9.5 9.5 9.5 0 0 1 9.5 9.5z"
+            android:fillColor="@color/dot" />
+
+        <path
+            android:name="dot_1"
+            android:pathData="M620,100a9.5 9.5 0 0 1 -9.5 9.5 9.5 9.5 0 0 1 -9.5 -9.5 9.5 9.5 0 0 1 9.5 -9.5 9.5 9.5 0 0 1 9.5 9.5z"
+            android:fillColor="@color/dot" />
+
+    </group>
+
+    <path
+        android:name="pin"
+        android:pathData="@string/pin_path_1"
+        android:fillColor="@color/pin" />
+
+
+
+
+</vector>
