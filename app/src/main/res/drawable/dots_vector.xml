@@ -47,6 +47,11 @@
         android:pathData="@string/pin_path_1"
         android:fillColor="@color/pin" />
 
+    <path
+        android:name="pin"
+        android:pathData="@string/pin_path_2"
+        android:fillColor="@color/pin" />
+
 
 
 
