@@ -28,7 +28,7 @@
         <path
             android:name="dot_1"
             android:pathData="M360,100a9.5 9.5 0 0 1 -9.5 9.5 9.5 9.5 0 0 1 -9.5 -9.5 9.5 9.5 0 0 1 9.5 -9.5 9.5 9.5 0 0 1 9.5 9.5z"
-            android:fillColor="@color/pin" />
+             />
 
         <path
             android:name="dot_1"
@@ -44,28 +44,10 @@
 
     <path
         android:name="pin"
-        android:pathData="@string/pin_path_1"
+        android:pathData="@string/pin_path"
         android:fillColor="@color/pin" />
 
-    <path
-        android:name="pin"
-        android:pathData="@string/pin_path_2"
-        android:fillColor="@color/pin" />
 
-    <path
-        android:name="pin"
-        android:pathData="
-
-        M150,-70
-        c-31,0 -56,23 -56,56
-
-        c-6,41 50,115 51.7,114.1
-
-
-
-
-        "
-        android:fillColor="#E5C236" />
 
 
 
