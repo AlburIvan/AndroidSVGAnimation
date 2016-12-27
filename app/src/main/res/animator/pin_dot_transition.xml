@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <objectAnimator
-        android:duration="@integer/pin_dot_time"
+        android:duration="400"
         android:propertyName="pathData"
         android:valueType="pathType"
         android:valueFrom="@string/pin_path"
         android:valueTo="@string/pin_dot_path"/>
+
     <objectAnimator
-        android:duration="@integer/pin_dot_time"
+        android:startOffset="450"
+        android:duration="600"
         android:propertyName="fillColor"
-        android:valueFrom="@color/pin"
-        android:valueTo="@color/dot"/>
+        />
 </set>

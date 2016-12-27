@@ -1,7 +1,7 @@
 <vector
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="400dp"
-    android:height="300dp"
+    android:width="800dp"
+    android:height="600dp"
     android:viewportWidth="800"
     android:viewportHeight="600">
 
@@ -21,22 +21,22 @@
             android:fillColor="@color/dot" />
 
         <path
-            android:name="dot_1"
+            android:name="dot_2"
             android:pathData="M230,100a9.5 9.5 0 0 1 -9.5 9.5 9.5 9.5 0 0 1 -9.5 -9.5 9.5 9.5 0 0 1 9.5 -9.5 9.5 9.5 0 0 1 9.5 9.5z"
             android:fillColor="@color/dot" />
 
         <path
-            android:name="dot_1"
+            android:name="dot_3"
             android:pathData="M360,100a9.5 9.5 0 0 1 -9.5 9.5 9.5 9.5 0 0 1 -9.5 -9.5 9.5 9.5 0 0 1 9.5 -9.5 9.5 9.5 0 0 1 9.5 9.5z"
-             />
+            android:fillColor="@color/dot"  />
 
         <path
-            android:name="dot_1"
+            android:name="dot_4"
             android:pathData="M490,100a9.5 9.5 0 0 1 -9.5 9.5 9.5 9.5 0 0 1 -9.5 -9.5 9.5 9.5 0 0 1 9.5 -9.5 9.5 9.5 0 0 1 9.5 9.5z"
             android:fillColor="@color/dot" />
 
         <path
-            android:name="dot_1"
+            android:name="dot_5"
             android:pathData="M620,100a9.5 9.5 0 0 1 -9.5 9.5 9.5 9.5 0 0 1 -9.5 -9.5 9.5 9.5 0 0 1 9.5 -9.5 9.5 9.5 0 0 1 9.5 9.5z"
             android:fillColor="@color/dot" />
 
@@ -46,13 +46,5 @@
         android:name="pin"
         android:pathData="@string/pin_path"
         android:fillColor="@color/pin" />
-
-    <path
-        android:name="dot_path"
-        android:pathData="@string/pin_dot_path"
-        android:fillColor="#000"/>
-
-
-
 
 </vector>
