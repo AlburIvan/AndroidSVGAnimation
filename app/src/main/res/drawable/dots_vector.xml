@@ -49,7 +49,7 @@
 
     <path
         android:name="dot_path"
-        android:pathData="@string/pin_dot_path"
+        android:pathData="@string/dot_init_path"
         android:fillColor="#000"/>
 
 

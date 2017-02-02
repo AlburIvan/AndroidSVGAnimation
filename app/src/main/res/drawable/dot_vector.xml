@@ -4,12 +4,8 @@
     android:viewportHeight="600"
     android:width="200dp"
     android:height="150dp">
-    <group
-        android:name="pin_group">
         <path
-            android:name="pin"
-            android:fillColor="@color/pin"
-            android:pathData="@string/pin_path"/>
-    </group>
-
+            android:name="dot"
+            android:fillColor="@color/dot"
+            android:pathData="@string/dot_init_path"/>
 </vector>

@@ -2,7 +2,12 @@
 <animated-vector
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:drawable="@drawable/pin_vector">
+
     <target
         android:animation="@animator/pin_dot_transition"
         android:name="pin"/>
+
+    <target
+        android:animation="@animator/dot_translationy_transition"
+        android:name="pin_group"/>
 </animated-vector>

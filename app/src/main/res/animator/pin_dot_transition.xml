@@ -5,7 +5,7 @@
         android:propertyName="pathData"
         android:valueType="pathType"
         android:valueFrom="@string/pin_path"
-        android:valueTo="@string/pin_dot_path"/>
+        android:valueTo="@string/dot_init_path"/>
     <objectAnimator
         android:duration="@integer/pin_dot_time"
         android:propertyName="fillColor"
